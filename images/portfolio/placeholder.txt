@@ -1,0 +1,11 @@
+Place your portfolio images here:
+
+- portfolio-1.jpg - Photography example (product photography)
+- portfolio-2.jpg - Videography example (wedding film)
+- portfolio-3.jpg - Commercial example (TV commercial)
+- portfolio-4.jpg - Photography example (fashion shoot)
+- portfolio-5.jpg - Videography example (corporate video)
+- portfolio-6.jpg - Commercial example (social media campaign)
+
+Recommended size: 600x400px or 800x600px with 3:2 aspect ratio.
+Images should be optimized for web to ensure fast loading times. 

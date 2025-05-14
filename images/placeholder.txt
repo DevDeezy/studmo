@@ -1,0 +1,20 @@
+The Studmo website requires the following images:
+
+1. Hero Background Image:
+   - Path: images/hero-bg.jpg
+   - Recommended size: 1920x1080px
+   - A high-quality image showing photography/filming in action
+
+2. About Section Image:
+   - Path: images/about-image.jpg
+   - Recommended size: 600x400px
+   - An image of your team or your studio
+
+3. Portfolio Images:
+   - Path: images/portfolio/portfolio-1.jpg through portfolio-6.jpg
+   - Recommended size: 600x400px
+   - These should be examples of your best work
+
+Please replace these placeholder instructions with actual images to complete your website.
+
+Note: All images should be optimized for web use to ensure fast loading times. 

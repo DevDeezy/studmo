@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studmo - Professional Photography & Filming Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Studmo</h1>
+            </div><!-- 
+         --><nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>STUDMO,<br>Olá eu sou o Miguel</h1>
+            <p>Sou o Miguel</p>
+            <a href="#contact" class="btn btn-primary">Contacta-me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre a About Studmo</h2>
+                <p>O que somos e o que fazemos</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Sou o Miguel</p>
+                    <p>Sou o Bonito</p>
+                    <p>Sou Forte</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-image.jpg" alt="Studmo team at work">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Os Serviços</h2>
+                <p>O que oferecemos</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Fotografia</h3>
+                    <p>Serviços de fotografia profissionais para eventos, produtos, retratos e uso comercial.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Videografia</h3>
+                    <p>Produção de vídeo de alta qualidade, incluindo vídeos corporativos, comerciais e cobertura de eventos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Produção de Filmes</h3>
+                    <p>Serviços de produção de filmes em escala completa, desde concepção até entrega final.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Edição</h3>
+                    <p>Edição de fotos e vídeos para aprimorar e perfeccionar o seu conteúdo visual.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Nosso Portfolio</h2>
+                <p>Projetos anteriores</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="photography">Fotografia</button>
+                <button class="filter-btn" data-filter="videography">Videografia</button>
+                <button class="filter-btn" data-filter="commercial">Comercial</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="photography">
+                    <img src="images/portfolio/portfolio-1.jpg" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Fotografia de Produto</h3>
+                        <p>Shoot comercial para a marca XYZ</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="videography">
+                    <img src="images/portfolio/portfolio-2.jpg" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Filme de Casamento</h3>
+                        <p>O dia especial de Sarah e John</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial">
+                    <img src="images/portfolio/portfolio-3.jpg" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Comercial de TV</h3>
+                        <p>Campanha de Verão para a ABC Company</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="photography">
+                    <img src="images/portfolio/portfolio-4.jpg" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h3>Shoot de Moda</h3>
+                        <p>Coleção de Primavera de 2023</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="videography">
+                    <img src="images/portfolio/portfolio-5.jpg" alt="Project 5">
+                    <div class="portfolio-overlay">
+                        <h3>Video Corporativo</h3>
+                        <p>Relatório Anual para a Global Inc.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial">
+                    <img src="images/portfolio/portfolio-6.jpg" alt="Project 6">
+                    <div class="portfolio-overlay">
+                        <h3>Campanha de Mídia Social</h3>
+                        <p>Criação de conteúdo para a Marca X</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que os Clientes Dizem</h2>
+                <p>Depoimentos</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Studmo entregou serviços de fotografia excepcionais para o nosso evento corporativo. O time foi profissional, criativo e capturou perfeitamente o espírito da nossa marca."</p>
+                        <div class="client-info">
+                            <h4>Jane Smith</h4>
+                            <p>Diretor de Marketing, ABC Corporation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"Trabalhar com Studmo na fotografia de produtos foi um game-changer para o nosso negócio de e-commerce. A qualidade das imagens superou nossas expectativas e significativamente melhorou nossas taxas de conversão."</p>
+                        <div class="client-info">
+                            <h4>Michael Johnson</h4>
+                            <p>CEO, StyleTech</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"O filme de casamento que Studmo criou para nós é absolutamente incrível. Eles capturaram todos os momentos especiais do nosso dia em uma forma cinematográfica que vamos eternizar."</p>
+                        <div class="client-info">
+                            <h4>Sarah & David</h4>
+                            <p>Novos casados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contacte-nos</h2>
+                <p>Contacte-nos para consultas e reservas</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Endereço</h3>
+                            <p>123 Rua da Fotografia, Distrito de Fotografia, Cidade, País</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Telefone</h3>
+                            <p>112</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>info@studmo.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Studmo</h2>
+                    <p>Capturando momentos, criando memórias</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Subscreva a nossa Newsletter</h3>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="O seu Email" required>
+                        <button type="submit" class="btn btn-subscribe">Subscrever</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Studmo. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
